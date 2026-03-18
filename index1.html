@@ -1,0 +1,89 @@
+               <!----feito por Nicolas e Igor---->
+
+<!DOCTYPE html> <!--serve para informar ao navegador que o documento utiliza a versão HTML5-->
+
+<html lang="pt-br"> <!--define que o idioma da página é português do Brasil-->
+
+<head> <!--serve para armazenar informações sobre a página HTML-->
+
+    <meta charset="UTF-8"> <!--serve para definir a codificação de caracteres de um documento HTML-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ela instrui o navegador a ajustar a largura da página à largura da tela do dispositivo-->
+
+    <title>CineVerse | Seu Catálogo de Filmes</title> <!--é o título da página-->
+
+    <link rel="stylesheet" href="style1.css"> <!--serve para linkar com o css-->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet"> <!--serve pra importar uma fonte externa no meu site-->
+</head> <!--serve para fechar as informações do html"-->
+
+<body> <!--é o corpo a estrutura do site/html-->
+
+    <head>
+        <nav class="navbar"> <!--é usada para definir a área de navegação do site-->
+
+            <div class="logo">Cine<span>Verse</span></div> <!--é usado para marcar uma parte pequena de um texto pra poder estilizar ou manipular com CSS/JS-->
+
+            <ul class="nav-links"> <!--lista-->
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Populares</a></li>
+                <li><a href="#">Gêneros</a></li>
+                <li><a href="#">Minha Lista</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="text" placeholder="Buscar filme...">
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Descubra sua próxima história favorita.</h1> <!--serve para escrever-->
+            <p>Milhares de filmes e séries para explorar.</p> <!--serve para escrever parágrafo-->
+             <p>Feito por Nicolas e Igor</p>
+        </section>
+
+        <section class="catalog">
+            <h2>Destaques da Semana</h2>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="https://img.elo7.com.br/product/zoom/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Capa do Filme">
+                    <div class="movie-info">
+                        <h3>Batman</h3>
+                        <span class="rating">⭐ 8.9</span>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <img src="https://img.elo7.com.br/product/zoom/266036C/big-poster-filme-vingadores-ultimato-lo47-tamanho-90x60-cm-vingadores.jpg" alt="Capa do Filme">
+                    <div class="movie-info">
+                        <h3>Vingadores Ultimato</h3>
+                        <span class="rating">⭐ 7.5</span>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <img src="https://br.web.img3.acsta.net/c_300_300/img/08/fe/08feaecbc56c480c082003c632f3bc2f.jpg" alt="Capa do Filme">
+                    <div class="movie-info">
+                        <h3>Interestelar</h3>
+                        <span class="rating">⭐ 9.2</span>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <img src="https://img.elo7.com.br/product/main/3FFB785/poster-homem-aranha-sem-volta-para-casa-adesivo-42-5x60cm-adesivo.jpg" alt="Capa do Filme">
+                    <div class="movie-info">
+                        <h3>Homem aranha</h3>
+                        <span class="rating">⭐ 6.8</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CineVerse - Catálogo Digital de Entretenimento</p>
+    </footer>
+
+</body>
+</html>
