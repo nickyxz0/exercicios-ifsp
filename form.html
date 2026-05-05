@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmástico</title>
+</head>
+<body>
+
+    <button onclick="sortear()" style="padding: 10px 20px; cursor: pointer;">
+        Clique para Sortear um filme
+    </button>
+
+    <h2 id="resultado">...</h2>
+
+    <div class="formulario">
+        <h2>Cadastrar</h2>
+        
+        <form id="form">
+            <input type="text" id="titulo" placeholder="Título" required>
+            <input type="url" id="imagem" placeholder="URL da imagem" required><br>
+            <textarea id="texto" placeholder="Diga"></textarea><br>
+            <button type="submit">Adicionar</button>
+        </form>
+    </div>
+
+    <!-- AQUI VAI APARECER OS CARDS -->
+    <div id="colecao" class="movie-grid"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
